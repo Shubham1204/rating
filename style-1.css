@@ -1,0 +1,54 @@
+body {
+  background-image: url("img1.jpg");
+}
+
+.title {
+  color: #000000;
+}
+
+
+div.presentation{
+    padding-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+.circleBar {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.circleBar .round {
+  min-height: 255px;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.circleBar .round strong {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  margin-top: -80px;
+  transform: translate(-50%);
+  font-size: 40px;
+  color: #000000;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 181px){
+    
+  .circleBar .round strong {
+  position: absolute;
+  top: 20%;
+  left: 190%;
+  margin-top: -80px;
+  transform: translate(-50%);
+  font-size: 40px;
+  color: #000000;
+  font-weight: 100;
+}
+
+}
+
